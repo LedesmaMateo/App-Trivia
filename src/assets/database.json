@@ -1,0 +1,42 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "En que año nacio Lionel Messi",
+            "op1": "1988",
+            "op2": "1985",
+            "op3": "1987",
+            "res": "1987"
+        },
+        {
+            "id": 2,
+            "pregunta": "Cuantos dias tiene un año",
+            "op1": "365",
+            "op2": "366",
+            "op3": "346",
+            "res": "365"
+        },
+        {
+            "id": 3,
+            "pregunta": "Cual es el cuarto planeta del sistema solar",
+            "op1": "Jupiter",
+            "op2": "Marte",
+            "op3": "Tierra",
+            "res": "Marte"
+        },
+        {
+            "id": 4,
+            "pregunta": "Quien gano la final de la UCL en el 2012-2013",
+            "op1": "Barcelona",
+            "op2": "Inter",
+            "op3": "Bayern Munich",
+            "res": "Bayern Munich"
+        },
+        {
+            "id": 5
+        },
+        {
+            "id": 6
+        }
+    ]
+}

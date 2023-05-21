@@ -1,0 +1,10 @@
+.pregunta{  
+    position: fixed;
+    background-color: red;
+    height: 300px;
+    z-index: auto;
+}
+
+.opciones{
+    margin-top: 50px;
+}
