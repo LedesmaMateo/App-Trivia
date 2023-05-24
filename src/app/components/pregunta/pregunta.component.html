@@ -1,11 +1,25 @@
-<div class="pregunta">
-    <h5>{{pregunta.pregunta}}</h5>
-    <div class="opciones">
-        <p (click)="eleccion(pregunta.op1)">{{pregunta.op1}}</p>
-        <p (click)="eleccion(pregunta.op2)">{{pregunta.op2}}</p>
-        <p (click)="eleccion(pregunta.op3)">{{pregunta.op3}}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="pregunta">
+                <h5>{{pregunta.pregunta}}</h5>
+            </div>
+            <div class="opciones">
+                <li style="list-style: none;">
+                    <ul>
+                        <div class="op"><h3><span (click)="eleccion(pregunta.op1)">{{pregunta.op1}}</span></h3></div>
+                    </ul>
+                    <ul>
+                        <div class="op"><h3><span (click)="eleccion(pregunta.op2)">{{pregunta.op2}}</span></h3></div>
+                    </ul>
+                    <ul>
+                        <div class="op"><h3><span (click)="eleccion(pregunta.op3)">{{pregunta.op3}}</span></h3></div>
+                    </ul>
+                </li>
+            </div>
+        </div>
     </div>
-
 </div>
+
 
 

@@ -1,9 +1,19 @@
-<div class="container">
-  <h1>puntaje = {{this.puntaje}}</h1>
-  <div class="preguntas" *ngFor="let data of preguntas">
-    <app-pregunta [pregunta]="data"
-                  (eliminar)="eliminarPregunta($event)"
-                  (puntaje)="sumarPuntaje()"
-    ></app-pregunta>
+<div class="container" *ngIf="!band">
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <h5>Puntaje = {{this.puntaje}}/100</h5>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-12">
+        <app-pregunta [pregunta]="pregunta"
+                      (eliminar)="eliminarPregunta($event)"
+                      (puntaje)="sumarPuntaje()"
+        ></app-pregunta>
+    </div>
   </div>
+</div>
+
+<div class="fin" *ngIf="band">
+  Juego finalizado su puntaje es: {{puntaje}}
 </div>
